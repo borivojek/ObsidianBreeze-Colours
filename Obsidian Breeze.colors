@@ -4,16 +4,17 @@ ColorAmount=-0.65
 ColorEffect=0
 ContrastAmount=0.65
 ContrastEffect=0
-IntensityAmount=-0.75
-IntensityEffect=0
+IntensityAmount=0.4
+IntensityEffect=2
 
 [ColorEffects:Inactive]
+ChangeSelectionColor=false
 Color=234,234,234
-ColorAmount=0.625
-ColorEffect=2
+ColorAmount=-0.9
+ColorEffect=0
 ContrastAmount=0.2
 ContrastEffect=0
-Enable=true
+Enable=false
 IntensityAmount=-1
 IntensityEffect=0
 
@@ -52,8 +53,8 @@ ForegroundPositive=255,170,0
 ForegroundVisited=142,121,165
 
 [Colors:Tooltip]
-BackgroundAlternate=17,51,86
-BackgroundNormal=16,50,103
+BackgroundAlternate=48,48,48
+BackgroundNormal=69,68,68
 DecorationFocus=61,174,233
 DecorationHover=61,174,233
 ForegroundActive=159,204,255
